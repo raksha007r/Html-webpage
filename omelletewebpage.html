@@ -1,0 +1,172 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Simple Omelette Recipe</title>  
+    <style>  
+        /* Import Google Fonts */  
+        @import url('https://fonts.googleapis.com/css2?family=Young+Serif&family=Outfit:wght@300;400;600&display=swap');  
+  
+        /* General Styles */  
+        body {  
+            background-color: #f4e1c8; /* Cream background */  
+            font-family: "Outfit", sans-serif; /* Default font */  
+            display: flex;  
+            justify-content: center;  
+            align-items: center;  
+            min-height: 100vh;  
+            margin: 0;  
+        }  
+  
+        /* Main Container */  
+        .container {  
+            background-color: white;  
+            width: 60%;  
+            max-width: 600px;  
+            padding: 20px;  
+            border-radius: 10px;  
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+            text-align: left;  
+        }  
+  
+        /* Image Styling */  
+        .image-container img {  
+            width: 100%;  
+            border-radius: 10px;  
+        }  
+  
+        /* Headings - "Young Serif", serif */  
+        h1 {  
+            font-family: "Young Serif", serif;  
+            color: black; /* Black color for heading "Simple Omelette Recipe" */  
+        }  
+  
+        h2 {  
+            font-family: "Young Serif", serif;  
+            color: #6a5acd; /* Raisin color for other headings */  
+        }  
+  
+        h2.preparation-time,  
+        h2.ingredients,  
+        h2.instructions,  
+        h2.nutrition {  
+            color: #3e1f00; /* Dark brown color for "Preparation Time", "Ingredients", "Instructions", "Nutrition" */  
+        }  
+  
+        h2.preparation-time {  
+            font-size: 18px; /* Smaller size for "Preparation Time" */  
+        }  
+  
+        /* Content Text - "Outfit", sans-serif */  
+        p, li, .section, .nutrition-item {  
+            font-family: "Outfit", sans-serif;  
+            font-size: 16px;  
+            color: #444;  
+            line-height: 1.6;  
+        }  
+  
+        /* Preparation Time Section */  
+        .preparation-time {  
+            background-color: #f8f0fa;  
+            padding: 10px;  
+            border-radius: 8px;  
+            margin: 10px 0;  
+            color: #6a5acd;  
+            font-family: "Outfit", sans-serif; /* Applied only to this section */  
+        }  
+  
+        /* Lists */  
+        ul, ol {  
+            padding-left: 20px;  
+        }  
+  
+        /* Horizontal Lines */  
+        .divider {  
+            border: none;  
+            border-top: 3px solid #ddd;  
+            margin: 20px 0;  
+        }  
+  
+        /* Nutrition Section */  
+        .nutrition-section {  
+            margin-top: 15px;  
+        }  
+  
+        .nutrition-item {  
+            display: flex;  
+            justify-content: space-between;  
+            padding: 8px 0;  
+            border-bottom: 2px solid #ddd;  
+        }  
+  
+        .nutrition-item:last-child {  
+            border-bottom: none;  
+        }  
+  
+        .nutrition-item strong {  
+            color: #222;  
+        }  
+    </style>  
+</head>  
+<body>  
+  
+<div class="container">  
+    <!-- Recipe Image -->  
+    <div class="image-container">  
+        <img src="image-omelette.jpeg" alt="Omelette">  
+    </div>  
+  
+    <!-- Title -->  
+    <h1>Simple Omelette Recipe</h1>  
+    <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>  
+  
+    <!-- Preparation Time Section -->  
+    <div class="preparation-time">  
+        <h2 class="preparation-time">Preparation Time</h2>  
+        <p><strong>Total:</strong> Approximately 10 minutes</p>  
+        <p><strong>Preparation:</strong> 5 minutes</p>  
+        <p><strong>Cooking:</strong> 5 minutes</p>  
+    </div>  
+  
+    <!-- Ingredients Section -->  
+    <h2 class="ingredients">Ingredients</h2>  
+    <ul>  
+        <li>2-3 large eggs</li>  
+        <li>Salt, to taste</li>  
+        <li>Pepper, to taste</li>  
+        <li>1 tablespoon of butter or oil</li>  
+        <li><strong>Optional fillings:</strong> cheese, diced vegetables, cooked meats, herbs</li>  
+    </ul>  
+  
+    <!-- Divider before Instructions -->  
+    <hr class="divider">  
+  
+    <!-- Instructions Section -->  
+    <h2 class="instructions">Instructions</h2>  
+    <ol>  
+        <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>  
+        <li><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>  
+        <li><strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure the eggs evenly coat the surface.</li>  
+        <li><strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are still slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>  
+        <li><strong>Fold and serve:</strong> As the omelette continues to cook, carefully lift one edge and fold it over the fillings. Let it cook for another minute, then slide it onto a plate.</li>  
+        <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>  
+    </ol>  
+  
+    <!-- Divider after Instructions -->  
+    <hr class="divider">  
+  
+    <!-- Nutrition Section -->  
+    <div class="nutrition-section">  
+        <h2 class="nutrition">Nutrition</h2>  
+        <p>The table below shows nutritional values per serving without the additional fillings.</p>  
+        <div class="nutrition-item"><strong>Calories:</strong> <span>277 kcal</span></div>  
+        <div class="nutrition-item"><strong>Carbs:</strong> <span>0g</span></div>  
+        <div class="nutrition-item"><strong>Protein:</strong> <span>20g</span></div>  
+        <div class="nutrition-item"><strong>Fat:</strong> <span>22g</span></div>  
+    </div>  
+  
+</div>  
+  
+</body>  
+</html>
