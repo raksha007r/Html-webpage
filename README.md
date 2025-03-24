@@ -16,11 +16,4 @@ This is a simple, responsive webpage displaying a recipe for making a basic omel
   - "Young Serif" for the headings.
   - "Outfit" for body text.
 
-## Installation
-To view the webpage, follow these steps:
 
-1. Download or clone this repository.
-2. Open the `index.html` file in your browser.
-
-```bash
-git clone https://github.com/your-username/omelette-recipe-webpage.git
